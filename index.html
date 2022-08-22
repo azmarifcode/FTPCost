@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Team Selection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header-section">
+        <h1 class="banner-heading">Select Best Five Player</h1>
+    </header>
+    <main>
+        <section class="player-section">
+            <div class="player-line-one">
+                <div class="card">
+                    <img class="img" src="./images/Cristiano Ronaldo.webp" alt="">
+                    <h3 id="Cristiano" class="player-name">Cristiano Ronaldo</h3>
+                    <h5 class="card-info">36 Goals -120 Assist</h5>
+                    <button id="btn1" class="card-btn">Select</button>
+                </div>
+
+                <div class="card">
+                    <img class="img" src="./images/Kevin De Bruyne.jpg" alt="">
+                    <h3 id="Kevin" class="player-name">Kevin De Bruyne</h3>
+                    <h5 class="card-info">36 Goals -120 Assist</h5>
+                    <button id="btn2" class="card-btn blue">Select</button>
+                </div>
+
+                <div class="card">
+                    <img class="img" src="./images/Lionel-Messi-2018.webp" alt="">
+                    <h3 id="Lionel" class="player-name">Lionel Messi</h3>
+                    <h5 class="card-info">36 Goals -120 Assist</h5>
+                    <button id="btn3" class="card-btn">Select</button>
+                </div>
+
+                <div id="player-selecting" class="card">
+                    <h3 id="selected-player" class="player-name">Selected - Player</h3>
+                    <ol id="order-list" class="orderElements">
+                    </ol>
+                </div>
+            </div>
+            <div class="player-line-two">
+                <div class="card">
+                    <img class="img" src="./images/Kylian Mbappe.jpg" alt="">
+                    <h3 id="Kylian" class="player-name">Kylian Mbappe</h3>
+                    <h5 class="card-info">36 Goals -120 Assist</h5>
+                    <button id="btn4" class="card-btn blue">Select</button>
+                </div>
+
+                <div class="card">
+                    <img class="img" src="./images/Mohamed Salah.jpg" alt="">
+                    <h3 id="Mohamed" class="player-name">Mohamed Salah</h3>
+                    <h5 class="card-info">36 Goals -120 Assist</h5>
+                    <button id="btn5" class="card-btn blue">Select</button>
+                </div>
+
+                <div class="card ">
+                    <img class="img" src="./images/robert-lewandowski.jpg" alt="">
+                    <h3 id="robert" class="player-name">robert</h3>
+                    <h5 class="card-info">36 Goals -120 Assist</h5>
+                    <button id="btn6" class="card-btn blue">Select</button>
+                </div>
+
+                <div class="card last-card common-text-color ">
+                    <h3 class="player-name white">Budget</h3>
+                    <div class="last-card-flex">
+                        <span>Per Player</span> <input id="player-cost-field" type="text">
+                    </div>
+
+                    <button id="player-calculate" class="card-btn blue">Calculate</button>
+
+                    <div class="last-card-flex">
+                        <p>Player Expenses</p>
+                        <p>$ <span id="player-total-expense">00</span> </p>
+                    </div>
+
+                    <div class="last-card-flex">
+                        <span>Manager</span> <input id="manager-cost" type="text">
+                    </div>
+
+                    <div class="last-card-flex">
+                        <span>Coach</span> <input id="coach-cost" type="text">
+                    </div>
+                    <button id="total-cost-calculate" class="card-btn blue">Calculate</button>
+                    <div class="last-card-flex">
+                        <p>Total</p>
+                        <p class="orrange">$ <span id="final-Total">00</span> </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <hr>
+    </main>
+
+    <footer>
+        <p class="footer-text">Copyright @ 2022 All Rights Reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
